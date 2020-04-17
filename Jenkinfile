@@ -2,7 +2,7 @@ pipeline{
   agent any
   stages{
     stage("pull the code from github"){
-    git credentialsId: 'gitpass', url: 'https://github.com/pudugopi/test.git'
+    git credentialsId: 'gitpass', url: 'https://github.com/pudugopi/test'
     }
   }
 }
